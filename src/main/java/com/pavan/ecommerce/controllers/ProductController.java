@@ -40,7 +40,8 @@ public class ProductController {
 
     @DeleteMapping("/products/{id}")
     public Product deleteProduct(@PathVariable long id){
-        return fakeStoreImpl.deleteProduct(id);
+        return fakeStoreImpl.
+        (id);
     }
 
 
